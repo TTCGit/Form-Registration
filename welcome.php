@@ -19,7 +19,7 @@
     <meta charset="UTF-8">
 	<meta name="HandheldFriendly" content="true" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<title>SignUp</title>
+	<title>Welcome</title>
 	<!-- ========== CSS INCLUDES ========== -->
 	<link rel="stylesheet" href="assets/css/master.css">
 </head>

@@ -1,5 +1,4 @@
-
-jQuery(document).ready(function() {
+$(document).ready(function() {
 	
 	"use strict";
 
@@ -18,7 +17,7 @@ jQuery(document).ready(function() {
 	//Detect Menu Item & Add Active Class
 	$(function($) {
 
-		var path = window.location.href; // because the 'href' property of the DOM element is the absolute path
+		var path = window.location.href; 
 		$('.header-fullscreen__navbar .main-nav a').each(function() {
 			if ( this.href === path ) {
 				$(this).addClass('active');
@@ -41,10 +40,6 @@ jQuery(document).ready(function() {
 		});
 	})		
 	//End Form
-
-	//Loader
-	// jQuery('.page-loader').delay(800).fadeOut('slow');
-	//End Loader
 
 });
 

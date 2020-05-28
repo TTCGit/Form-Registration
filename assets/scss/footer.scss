@@ -39,7 +39,11 @@
 				font-size: 1.4rem;
                 font-weight: 700;
                 font-family: $theme-font;
-                color: $dark;
+				color: $dark;
+				
+				&:hover {
+					color: $hover;
+				}
 			}
 		}
 		i {

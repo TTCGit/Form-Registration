@@ -11441,6 +11441,8 @@ a.lightbox.hidden {
       font-weight: 700;
       font-family: "Poppins", sans-serif;
       color: #000; }
+      .footer .footer__social a.copyright:hover {
+        color: #ef173b; }
     .footer .footer__social i {
       font-size: 1.4rem;
       position: relative;

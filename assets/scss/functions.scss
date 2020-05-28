@@ -1,4 +1,5 @@
 // Here is all functions we need.
+
 @mixin transition($time:0.2s,$delay-timing:0) {
 	-webkit-transition-delay: $delay-timing;
 	transition-delay: $delay-timing;

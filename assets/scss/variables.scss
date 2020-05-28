@@ -1,6 +1,7 @@
 // Here will be all variables for this project, excluding variables for materialize.
 
-$theme-font: 'Lato', sans-serif;
+$theme-font: 'Poppins', sans-serif;
+$cormoran:   'Cormorant Garamond', serif;
 
 /* Hedaer */
 .header-fixed {
@@ -10,20 +11,13 @@ $theme-font: 'Lato', sans-serif;
 
 /* Colors */
 $header-font: #000;
-$header:	  #f9fbfc;//rgba(255,255,255, 0.96);
+$header:	  rgba(255,255,255,.95);;//rgba(255,255,255, 0.96);
 $light:		  #fff;
 $dark: 		  #000;
-$hover:		  #ff7777;
+$hover:		  #ef173b;
 $body-bgk:	  #f9fbfc;
 $hover-bgk:	  #ff7777;
 /* Colors */
-
-/* Fonts */
-@font-face {
-	font-family: 'nvRegular';
-	src: url('../webfonts/nvRegular.otf');
-}
-/* End Fonts */
 
 /* Start BEM */
 .header--bgk {

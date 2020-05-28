@@ -1,7 +1,7 @@
 <!-- ========== START HEADER ========== -->
 <div class="top-nav top-nav--burger-1 clearfix">
     <div class="logo">
-        <a href=""><img src="assets/img/logo.png"  alt="Logo" /></a>
+        <a href="login.php"><img src="assets/img/logo.png"  alt="Logo" /></a>
     </div><!-- end logo -->
     <div class="menu-trigger">
         <input type="checkbox">
@@ -25,18 +25,18 @@
                     <div class="info-area">
                         <ul class="social srf-full-menu">
                             <li>
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.facebook.com/tasca.tiberiucalin/" target='_blank'><i class="fab fa-facebook-f"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/tiberiu-calin-tasca-753177125/" target='_blank'><i class="fab fa-linkedin-in"></i></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/calin.t/" target='_blank'><i class="fab fa-instagram"></i></a>
                             </li>
                         </ul>
                     </div><!-- end info-area -->
                     <div class="mobile-info">
-                        <p>&copy; Le Dev Art Themes MMXIX</p>
+                        <p>&copy; Le Dev Art Themes MMXXX</p>
                     </div><!-- end mobile-info -->
                 </div><!-- end col-sm-12 -->
             </div><!-- end row -->

@@ -1,4 +1,8 @@
 <?php
+    include('includes/header.php');
+?>
+
+<?php
     //Initialize session
     session_start();
 
@@ -13,19 +17,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
-    <style type="text/css">
-        body{ font: 14px sans-serif; text-align: center; }
-    </style>
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>SignUp</title>
+	<!-- ========== CSS INCLUDES ========== -->
+	<link rel="stylesheet" href="assets/css/master.css">
 </head>
-<body>
-    <div class="page-header">
-        <h1>Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.</h1>
+<body class="welcome">
+    <div class="wrapper">
+        <div class="container">
+            <div class="row center-col">
+                <div class="col-sm-6">
+                    <div class="page-header">
+                        <h1>Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.</h1>
+                    </div>
+                    <p>
+                        <a href="reset-password.php" class="btn">Reset Your Password</a>
+                        <a href="logout.php" class="btn">Sign Out of Your Account</a>
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-    <p>
-        <a href="reset-password.php" class="btn btn-warning">Reset Your Password</a>
-        <a href="logout.php" class="btn btn-danger">Sign Out of Your Account</a>
-    </p>
+
+    <script src="assets/js/jquery.js"></script>
+	<script src="assets/bootstrap-master/assets/javascripts/bootstrap.min.js"></script>
+	<script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
+
+<?php
+    include('includes/footer.php');
+?>
